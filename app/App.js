@@ -7,7 +7,7 @@ const Header=()=>{
      	          <img class="b" src="Icon - Logo.svg"  alt="vector" height="100%" width="100%"/>
      	       </div>
      	   <div className="col2">
-     	   		{/* <img className="Movie_hub" src="movi.png" alt="movie hub" height="100%" /> */}
+     	   		
                     <h3 style={{ color: 'red',heght:"100%",width:"100%" }}>Movie Hub</h3>
      	   	</div>
      	   <div className="col3">

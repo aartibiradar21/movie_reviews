@@ -15,11 +15,10 @@ const MovieCard =({movie, onVoteUp, onVoteDown,onDelete }) =>{
           <p className="white">{movie.overview}</p>
       </div>
       <div className="handlevote">
-            <DeleteButton onClick={() =>  onDelete(movie.id)} />
             <VoteUpButton onClick={() => onVoteUp(movie.id)}/>
             <div className="dot"><span >{movie.votes || 0}</span></div>
-            
             <VoteDownButton onClick={() => onVoteDown(movie.id)} />
+            <DeleteButton onClick={() =>  onDelete(movie.id)} />
       </div>
       
     </div>

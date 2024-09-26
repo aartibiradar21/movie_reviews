@@ -85,7 +85,7 @@ const MovieList = () => {
         ) : (
           <img
             className="addMovie"
-            src="addMovie.svg"
+            src="add-movie.png"
             alt="Add Movie"
             onClick={handleShowForm}
           />
